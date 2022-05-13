@@ -1,0 +1,17 @@
+body{
+    background-image: url(./images/table.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el, p {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
