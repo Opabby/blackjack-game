@@ -1,17 +1,27 @@
 body{
     background-image: url(./images/table.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     text-align: center;
     font-family: sans-serif;
+    color: white;
+    font-weight: 700;
 }
 
 h1 {
     color: goldenrod;
 }
 
-#message-el, p {
-    font-size: 30px;
-    color: white;
-    font-weight: 700;
+#message-el{
+    font-style: italic;
+}
+
+#start-btn, #new-btn{
+    color: #016f32;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    width: 10rem;
+    padding: .5rem 0;
+    background-color: goldenrod;
+    margin-bottom: .5rem;
 }
